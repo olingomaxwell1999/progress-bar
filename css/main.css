@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+}
+
+body {
+  overscroll-behavior-y: none;
+}
+
+section {
+  margin: 10% 20%;
+}
+
+section h2 {
+  font-size: 4rem;
+  padding: 2rem 0rem;
+  font-weight: 800;
+}
+
+section h3 {
+  font-size: 2.5rem;
+  padding: 2rem 0rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+section p {
+  font-size: 1.3rem;
+  line-height: 175%;
+  font-weight: 400;
+  color: #1e1e1e;
+}
+
+#progressBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 8px;
+  background: -webkit-gradient(linear, left top, right top, from(#ff5f6d), to(#ffc371));
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  width: 0%;
+  z-index: 100;
+  -webkit-transition: width 0.2s ease-out;
+  transition: width 0.2s ease-out;
+}
+/*# sourceMappingURL=main.css.map */

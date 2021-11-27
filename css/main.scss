@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+}
+
+body{
+    overscroll-behavior-y: none;
+}
+
+section{
+    margin: 10% 20%;
+
+    h2{
+        font-size: 4rem;
+        padding: 2rem 0rem;
+        font-weight: 800;
+    }
+
+    h3{
+        font-size: 2.5rem;
+        padding: 2rem 0rem;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+
+    p{
+        font-size: 1.3rem;
+        line-height: 175%;
+        font-weight: 400;
+        color: rgb(30, 30, 30);
+    }
+}
+
+#progressBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 8px;
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    width: 0%;
+    z-index: 100;
+    transition: width 0.2s ease-out;
+}
